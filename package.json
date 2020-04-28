@@ -1,17 +1,28 @@
 {
   "name": "To-Do-app",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^3.5.6",
+    "nodemon": "^2.0.3"
   },
   "devDependencies": {},
   "scripts": {
+    "watch": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goromanas/to-do-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goromanas/to-do-app/issues"
+  },
+  "homepage": "https://github.com/goromanas/to-do-app#readme",
+  "description": ""
 }
